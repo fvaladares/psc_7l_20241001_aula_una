@@ -15,4 +15,12 @@ public class Aluno {
     public double getNota() {
         return nota;
     }
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "matricula='" + matricula + '\'' +
+                ", nota=" + nota +
+                '}';
+    }
 }
