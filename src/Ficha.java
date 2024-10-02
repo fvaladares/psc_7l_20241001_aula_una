@@ -18,4 +18,9 @@ public class Ficha {
         }
     }
 
+    public String mostrarNotas() {
+        return "Melhor nota: " + alunoComMaiorNota +
+                "\nSegunda melhor nota: " + alunoComSegundaMaiorNota;
+    }
+
 }
