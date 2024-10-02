@@ -8,10 +8,12 @@ public class Aluno {
         this.nota = nota;
     }
 
+    // retorna o valor da matricula
     public String getMatricula() {
         return matricula;
     }
 
+    // retorna o valor da nota
     public double getNota() {
         return nota;
     }
@@ -22,5 +24,9 @@ public class Aluno {
                 "matricula='" + matricula + '\'' +
                 ", nota=" + nota +
                 '}';
+    }
+
+    public boolean compararNota(Aluno novoAluno) {
+        return novoAluno.nota > nota;
     }
 }
